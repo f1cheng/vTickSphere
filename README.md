@@ -1,7 +1,7 @@
 # vTickSphere
 os over x86 architecture, drive from one to one, lifting little by little.
 ```  
-bootloader stage1 + bootloader stage2 + kernel:
+bootloader stage1 & stage2 + kernel:
 framework: 
   print, heap, paging, gdt, isr, task switch (within kernel for poc only),
   next: syscall.
