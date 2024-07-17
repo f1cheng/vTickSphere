@@ -32,5 +32,7 @@ Then in client as RealVNC Viewer, login via:
 ```
 
 ![image](https://github.com/upempty/stepback-os/assets/52414719/4eacd75b-ade7-425d-b572-bb357733e71c)
+![image](https://github.com/user-attachments/assets/328bef93-03c9-4380-8bb8-241154f073e5)
+
 
 
