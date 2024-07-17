@@ -30,7 +30,6 @@ Then in client as RealVNC Viewer, login via:
 121.43.133.208:11801
 
 ```
-![image](https://github.com/user-attachments/assets/328bef93-03c9-4380-8bb8-241154f073e5)
 ![prompt for entering kernel](image/enter_kernel.png)
 
 
