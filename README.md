@@ -30,6 +30,11 @@ Then in client as RealVNC Viewer, login via:
 121.43.133.208:11801
 
 ```
+
 ![prompt for entering kernel](image/enter_kernel.png "enter_kernel")
+
+![prompt for task switch](image/task-switch.png "switch tasks")
+
+![prompt for qemu-gdb](image/qemu-gdb.png "qemu gdb")
 
 

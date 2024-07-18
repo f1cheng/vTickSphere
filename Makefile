@@ -4,7 +4,16 @@ OBJ = ${C_SOURCES:.c=.o kernel/interrupts.o kernel/gdtflush.o kernel/switchit.o}
 
 CFLAGS = -g -nostdlib -nostdinc -fno-builtin -fno-stack-protector -nodefaultlibs -Wall -Wextra -Werror -fcommon
 
-default: disk.img
+default: all 
+
+qemu-gdb: disk.img
+	qemu-system-i386 -s -S -drive format=raw,file=disk.img
+#qemu-system-i386 -drive format=raw,file=disk.img -vnc 172.23.245.135:5901
+qemu-vnc: disk.img
+	qemu-system-i386 -drive format=raw,file=disk.img -vnc 172.23.245.135:5901
+
+all: disk.img
+	@echo "make image"	
 
 disk.img: boot_mbr.bin boot_vbr.bin kernel.bin
 	@echo " build  boot/boot.bin"
