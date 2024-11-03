@@ -4,8 +4,10 @@ os over x86 architecture, drive from one to one, lifting little by little.
 bootloader stage1 & stage2 + kernel:
 framework: 
   print, heap, paging, gdt, isr, task switch (within kernel for poc only),
-  next: syscall(allow for user mode inject into kernel mode for the permission), user mode task creation then context switch from kernel->user->kernel...
+  next: syscall(allow for user mode inject into kernel mode for the permission),
+        user mode task creation then context switch from kernel->user->kernel...
         kernel/user mode permission isolation: paging for user and kernel mode, gdt for user code/data, kernel code/data.
+        simple file system loading.   
 ```
 
 # guide
