@@ -7,7 +7,7 @@ framework:
   next: syscall(allow for user mode inject into kernel mode for the permission),
         user mode task creation then context switch from kernel->user->kernel...
         kernel/user mode permission isolation: paging for user and kernel mode, gdt for user code/data, kernel code/data.
-        simple file system loading.   
+        simple file system in disk and memory layout for the files structure.   
 ```
 
 # guide
